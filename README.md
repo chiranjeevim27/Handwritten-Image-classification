@@ -14,7 +14,7 @@ git clone https://github.com/chiranjeevim27/Handwritten-Image-classification.git
 
 ### Data Preparation
 
-The MNIST dataset is used for training and testing. It is loaded and preprocessed in the Jupyter notebook `Image-classification.ipynb`.
+The MNIST dataset is used for training and testing. It is loaded and preprocessed in the Jupyter notebook `image-classification.ipynb`.
 
 ### Installation
 
@@ -30,7 +30,7 @@ The neural network architecture consists of three layers: input layer, a hidden 
 
 ## Running the Model
 
-Run the Jupyter notebook `Image-classification.ipynb` to load the data, preprocess it, build and train the model.
+Run the Jupyter notebook `image-classification.ipynb` to load the data, preprocess it, build and train the model.
 
 ## Contributing
 
