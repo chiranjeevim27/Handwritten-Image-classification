@@ -1,28 +1,41 @@
-# SHAPEAI PYTHON AND DEEP LEARNING BOOTCAMP
-Hi I made this project during the 7 Days Free Bootcamp, conducted by <b> SHAPEAI
-</b>.
-The instructor during the session was Mr. Shaurya Sinha (Data Analyst Intern at Jio). I got to
-learn a lot during these 7 days and it was an amazing experience learning with SHAPEAI.
-<br><br>Here's the link for you to watch the sessions as well<br>
-<a href="https://www.youtube.com/playlist?list=PL7zl8TDRnbune5TnrfBgFbxT87E98cfo9"> <img src="https://github.com/ShapeAI/PYTHON-AND-DATA-ANALYTICS/blob/main/Python_and_deep_learning.png"> </a>
-<br>I got to have hands on experience on:
-<li>Python
-<li>Tensorflow
-<li>Deep Learning
-<br>during these 7 days, and everything was explained from the very basics so that
-anyone with zero experience on programming can learn.
-I enjoyed these 7 days, you can as well. To register for next free 7 days bootcamp, visit:
-www.shapeai.tech
-or follow SHAPEAI on:
-<li><a href=
-"https://in.linkedin.com/company/shapeai">LinkedIn</a>
-<li><a href=
-"https://www.instagram.com/shape.ai/?hl=en">Instagram</a>
-<li><a
-href=
-"https://www.youtube.com/channel/UCTUvDLTW9meuDXWcbmISPdA">YouTu
-be</a>
-<li><a href=
-"https://github.com/shapeai">GitHub</a>
+# MNIST Digit Recognition
 
+This repository contains a simple neural network model built using Keras for recognizing hand-written digits from the MNIST dataset.
 
+## Getting Started
+
+### Clone Repository
+
+To get started, clone this repository to your local machine:
+
+```bash
+git clone https://github.com/chiranjeevim27/Handwritten-Image-classification.git
+```
+
+### Data Preparation
+
+The MNIST dataset is used for training and testing. It is loaded and preprocessed in the Jupyter notebook `Image-classification.ipynb`.
+
+### Installation
+
+Install the required Python packages. It is recommended to use a virtual environment.
+
+```bash
+pip install -r requirements.txt
+```
+
+### Model Architecture
+
+The neural network architecture consists of three layers: input layer, a hidden layer with 32 neurons, and an output layer with 10 neurons (for each digit). Refer to the model summary in the Jupyter notebook for more details.
+
+## Running the Model
+
+Run the Jupyter notebook `Image-classification.ipynb` to load the data, preprocess it, build and train the model.
+
+## Contributing
+
+Feel free to contribute by opening issues, proposing enhancements, or submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
